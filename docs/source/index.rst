@@ -28,3 +28,10 @@
 
    tls/service-identity
 
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Cloud
+
+   cloud/native-app-ac
+
