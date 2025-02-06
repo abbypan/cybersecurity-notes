@@ -38,6 +38,21 @@
 
 .. toctree::
    :maxdepth: 1
+   :caption: IoT
+
+   iot/mqtt
+   iot/coap
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: CPE
+
+   cpe/tr069
+
+
+.. toctree::
+   :maxdepth: 1
    :caption: Supply Chain
 
    supply-chain/scrm
