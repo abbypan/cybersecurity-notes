@@ -10,13 +10,6 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: BLE
-
-   ble/index
-
-
-.. toctree::
-   :maxdepth: 1
    :caption: Certificate(证书)
 
    cert/acme
@@ -27,6 +20,16 @@
    :caption: TLS
 
    tls/service-identity
+   tls/esni
+   tls/tls-protocol-version-mismatch
+   tls/token-binding
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: IP
+
+   ip/ipv6-sec
 
 
 .. toctree::
@@ -36,6 +39,26 @@
    cloud/native-app-ac
 
 
+.. toctree::
+   :maxdepth: 1
+   :caption: local
+
+   local/send
+   local/ms-cdp
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: wifi
+
+   wifi/wifi
+   wifi/wifi-direct
+   wifi/wps
+   wifi/wpa2
+   wifi/wpa2-krack
+   wifi/wpa3
+
+   
 .. toctree::
    :maxdepth: 1
    :caption: IoT
@@ -57,3 +80,17 @@
 
    supply-chain/scrm
 
+
+.. toctree::
+   :maxdepth: 1
+   :caption: CII
+
+   cii/ci-framework
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Time
+
+   time/roughtime
+   time/nts
