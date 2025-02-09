@@ -23,6 +23,9 @@
    tls/esni
    tls/tls-protocol-version-mismatch
    tls/token-binding
+   tls/kem-tls
+   tls/tls-raccoon-attack
+   tls/etls
 
 
 .. toctree::
