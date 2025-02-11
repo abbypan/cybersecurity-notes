@@ -17,6 +17,14 @@
 
 .. toctree::
    :maxdepth: 1
+   :caption: Authentication
+
+   auth/web-auth
+   auth/ontology-auth
+
+
+.. toctree::
+   :maxdepth: 1
    :caption: TLS
 
    tls/service-identity
@@ -26,6 +34,7 @@
    tls/kem-tls
    tls/tls-raccoon-attack
    tls/etls
+   tls/ocsp-must-staple
 
 
 .. toctree::
@@ -68,6 +77,8 @@
 
    iot/mqtt
    iot/coap
+   iot/iot-ota
+   iot/eap-noob
 
 
 .. toctree::
@@ -89,6 +100,7 @@
    :caption: CII
 
    cii/ci-framework
+   cii/cyber-physical-sys
 
 
 .. toctree::
@@ -97,3 +109,18 @@
 
    time/roughtime
    time/nts
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: mobile
+
+   mobile/esim
+   mobile/cellular-alg
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: route
+
+   route/route-alias
