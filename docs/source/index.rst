@@ -35,6 +35,8 @@
    tls/tls-raccoon-attack
    tls/etls
    tls/ocsp-must-staple
+   tls/alts
+   tls/caa
 
 
 .. toctree::
@@ -61,6 +63,14 @@
 
 .. toctree::
    :maxdepth: 1
+   :caption: bluetooth
+
+   bluetooth/bluetooth-sec
+   bluetooth/bluetooth-attack
+
+
+.. toctree::
+   :maxdepth: 1
    :caption: wifi
 
    wifi/wifi
@@ -79,6 +89,7 @@
    iot/coap
    iot/iot-ota
    iot/eap-noob
+   iot/iot-dns
 
 
 .. toctree::
@@ -124,3 +135,11 @@
    :caption: route
 
    route/route-alias
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: mail
+
+   mail/mail
+   mail/mail-sec
