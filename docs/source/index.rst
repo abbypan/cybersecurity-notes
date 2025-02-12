@@ -21,6 +21,14 @@
 
    auth/web-auth
    auth/ontology-auth
+   auth/saml.rst
+   auth/ca-sso.rst
+   auth/oauth2.rst
+   auth/openid.rst
+   auth/fido.rst
+   auth/kerberos.rst
+   auth/jwt.rst
+
 
 
 .. toctree::
