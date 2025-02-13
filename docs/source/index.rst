@@ -140,6 +140,28 @@
 
 .. toctree::
    :maxdepth: 1
+   :caption: automotive
+
+    automotive/threat
+    automotive/ota
+    automotive/some-ip
+    automotive/v2x
+    automotive/v2x-implicit-cert
+
+.. toctree::
+   :maxdepth: 1
+   :caption: automotive bus
+    automotive/bus
+    automotive/can
+    automotive/can-fd
+    automotive/flexray
+    automotive/lin
+    automotive/most
+    automotive/ether
+
+
+.. toctree::
+   :maxdepth: 1
    :caption: route
 
    route/route-alias
