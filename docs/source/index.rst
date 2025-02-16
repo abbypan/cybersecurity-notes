@@ -28,6 +28,7 @@
    auth/fido.rst
    auth/kerberos.rst
    auth/jwt.rst
+   auth/cookie-dbsc.rst
 
 
 
@@ -165,7 +166,25 @@
    :caption: route
 
    route/route-alias
+   route/nsh
 
+
+.. toctree::
+   :maxdepth: 1
+   :caption: bgp
+
+   bgp/bgp
+   bgp/bgp-ops
+   bgp/bgp-sec-proto
+   bgp/rpki
+   bgp/rpki-roa
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: udp
+
+   udp/quic
 
 .. toctree::
    :maxdepth: 1
@@ -173,3 +192,9 @@
 
    mail/mail
    mail/mail-sec
+
+.. toctree::
+   :maxdepth: 1
+   :caption: design
+
+   design/opportunistic-security
