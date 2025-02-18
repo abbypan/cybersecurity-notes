@@ -1,10 +1,33 @@
 RPKI ROA
 ############
 
+RFC6482
+
+ROA: Route Origin Authorizations 路由源地址认证
+
+注意每个ROA里只含一个AS
+
+ROA结构
+==========================================================
+
+ROA : { version, asID, ipAddrBlocks } 其中，ipAddrBlocks是ROAIPAddressFamily地址序列
+
+ROAIPAddressFamily : { addressFamily, addresses } 其中，addresses是ROAIPAddress地址序列，Address Family Identifier(AFI)区分ipv4/ipv6
+
+ROAIPAddress : { address, maxLength } 其中，address是IPAddress的bit string，maxLength为最大前缀长度，如果未指定maxLength，就限定只能为地址中的前缀长度
+
+ROA使用
+==========================================================
+
+用ROA验证路由宣告之前，需要事先验证ROA
+
+注意ROA内容完整性校验支持用的是CMS: Crytopgraphic Message Syntax
+
 RPKI ROA 部署问题
+=======================
 
 invalid的处理
-==========================================================
+----------------------------------------------------------
 
 例如，上级A拥有 某个 /16 前缀的地址段，且划分了该地址段的某个 /24 子段给下级B
 
@@ -21,7 +44,7 @@ invalid的处理
 思路类似DNSSEC链式部署，即使没有部署DNSSEC，依然能够"尽力而为"的查到一个应答
 
 分配
-==========================================================
+----------------------------------------------------------
 
 向下级分配不属于自己的AS资源(A->B)，由于链式认证，外部不会有影响
 

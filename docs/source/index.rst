@@ -178,8 +178,15 @@
    bgp/bgp
    bgp/bgp-ops
    bgp/bgp-sec-proto
+   bgp-path-sec
+   bgp-prefix-validation
+   bgp-route-leak
+   bgpsec-proto
    bgp/rpki
    bgp/rpki-roa
+   bgp/rpki-router
+   bgp/rpki-spec
+
 
 
 .. toctree::
@@ -200,6 +207,21 @@
    :caption: design
 
    design/opportunistic-security
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: doi
+
+    doi/doi-handle
+    doi/oid-ors
+    doi/epc-ons
+    doi/cid-ecode
+    doi/mcode
+    doi/uid
+    doi/uuid
+
+
 
 
 .. toctree::

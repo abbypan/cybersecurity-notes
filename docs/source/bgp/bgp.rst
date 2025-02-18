@@ -63,4 +63,20 @@ internet地址分配：IANA -> RIR -> LIR
 TCP攻击导致BGP消息update困难 
 
 
+BGP Security Analysis
+==========================================================
+
+RFC4272 : BGP Security Vulnerabilities Analysis
+
+BGP问题可导致：流量被传到没法deliver it的节点，挂掉；网络拥塞；丢包，黑洞；延迟；循环；窃听；分区，自以为流量与其他分离，事实则否；分割，自以为不会被路由到某些网络，事实则否；churn，快速变化；不稳定，不保证能到；过载；资源耗尽；地址伪造。
+
+BGP攻击：窃听，重放，插入，删除，篡改，中间人，拒绝服务。。。
+
+BGP脆弱性：完整性、时效性，节点认证，NLRI源AS校验，path attributes的源AS认证
+
+合法的BGP peer如果出错？
+
+各种加签名。。。
+
+BGP消息自身保护，可达性。。。
 
