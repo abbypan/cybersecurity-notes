@@ -40,14 +40,21 @@
    tls/esni
    tls/tls13-handshake-resumption
    tls/token-binding
+   tls/tls13
    tls/tls13-tok
+   tls/tls-psk
    tls/kem-tls
    tls/tls-raccoon-attack
    tls/etls
    tls/ocsp-must-staple
    tls/alts
+   tls/alpn
    tls/caa
    tls/tls-protocol-version-mismatch
+   tls/handshake-mac-ext
+   tls/ocsp
+   tls/ocsp-stapling
+   tls/tls-attack
 
 
 .. toctree::
@@ -96,11 +103,17 @@
    :maxdepth: 1
    :caption: IoT
 
+   iot/iot-arch
+   iot/iot-sec
    iot/mqtt
    iot/coap
    iot/iot-ota
+   iot/iot-oob
    iot/eap-noob
    iot/iot-dns
+   iot/iot-attack
+
+
 
 
 .. toctree::

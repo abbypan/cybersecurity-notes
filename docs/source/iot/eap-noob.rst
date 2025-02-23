@@ -10,6 +10,14 @@ doc
 
 `Connecting IoT appliances securely to the cloud(eap-noob) <https://www.cs.helsinki.fi/group/close/edge-computing-2016/lib/slides/tuomas_aura.pdf>`_
 
+dynamic OOB messages, refresh cycle 3600s。
+
+secret nonce (Noob): first authentication, mutually authentication。
+
+cryptographic fingerprint(Hoob): verify the integrity of the key exchange, detect impersonation and mitm on the in-band channel。
+
+OOB mesage url example (60bytes): server domain name (60 characters base64),  PeerId (22 characters base64),  secret nonce (Noob) 16-byte, fingerprint (Hoob) 16-byte。
+
 overview
 ==========================================================
 
