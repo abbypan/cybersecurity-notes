@@ -1,5 +1,5 @@
 OAuth2 
-==========================================================
+##########################################################
 
 FIDO, OAuth2, CA SSO 对web服务实际效用会更好一些
 
@@ -18,7 +18,7 @@ FIDO, OAuth2, CA SSO 对web服务实际效用会更好一些
 
 #. client -> 认证服务器( Authorization Server ) : 认证授权
 
-.. raw::
+.. note::
 
     GET /authorize?response_type=code&client_id=s6BhdRkqt3&state=xyz
     &redirect_uri=https%3A%2F%2Fclient%2Eexample%2Ecom%2Fcb HTTP/1.1
@@ -28,7 +28,7 @@ FIDO, OAuth2, CA SSO 对web服务实际效用会更好一些
 
 #.  Authorization Server -> client : Access Token 
 
-.. raw::
+.. note::
 
     POST /token HTTP/1.1
     Host: server.example.com
@@ -37,7 +37,7 @@ FIDO, OAuth2, CA SSO 对web服务实际效用会更好一些
 
 #.  Resource Server -> client : Protected Resource
 
-.. raw::
+.. note::
 
     GET /authorize?response_type=token&client_id=s6BhdRkqt3&state=xyz&redirect_uri=https%3A%2F%2Fclient%2Eexample%2Ecom%2Fcb HTTP/1.1
     Host: server.example.com

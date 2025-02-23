@@ -17,7 +17,7 @@ TLS Multiple Certificate Status Request extension
 
 请求的数据结构
 
-.. raw::
+.. note::
 
     struct {
        CertificateStatusType status_type;
@@ -45,7 +45,7 @@ TLS Multiple Certificate Status Request extension
 
 应答的数据结构
 
-.. raw::
+.. note::
 
     struct {
        CertificateStatusType status_type;

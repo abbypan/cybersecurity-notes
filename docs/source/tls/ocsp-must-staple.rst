@@ -7,7 +7,7 @@ certificate
 
 定义一个x509v3的tls feature extension，ocsp must-staple，在server certficate的csr配置中指定tlsfeature = status_request
 
-.. raw::
+.. note::
 
     [ v3_req ]
 

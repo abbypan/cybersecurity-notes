@@ -67,7 +67,7 @@ Channel Binding
 
 服务器将cookie与client public key绑定，而非像RFC5929一般（将数据与server public key绑定）
 
-.. raw::
+.. note::
     Kb :  client public key
 
     server -> client --------------
@@ -80,7 +80,7 @@ Channel Binding
 
 服务器检查 :  
 
-.. raw::
+.. note::
     cookie received = cookie sent
 
     Kb in Token-Binding is same with Kb in { uid, Kb } 

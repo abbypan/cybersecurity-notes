@@ -226,13 +226,13 @@
    :maxdepth: 1
    :caption: doi
 
-    doi/doi-handle
-    doi/oid-ors
-    doi/epc-ons
-    doi/cid-ecode
-    doi/mcode
-    doi/uid
-    doi/uuid
+   doi/doi-handle
+   doi/oid-ors
+   doi/epc-ons
+   doi/cid-ecode
+   doi/mcode
+   doi/uid
+   doi/uuid
 
 
 

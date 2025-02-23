@@ -18,7 +18,7 @@ Client、Server 通过D-H协商生成的密钥为预备主密钥(pre_master_secr
 
 `RFC 5246 : TLS 1.2 section 8.1 <https://tools.ietf.org/html/rfc5246>`_
 
-.. raw::
+.. note::
 
     #PRF是伪随机生成函数，根据密钥、标识、种子生成随机序列
     master_secret = PRF(pre_master_secret, "master secret",
@@ -29,7 +29,7 @@ Client、Server 通过D-H协商生成的密钥为预备主密钥(pre_master_secr
 
 `RFC 5246 : TLS 1.2 section 6.3 <https://tools.ietf.org/html/rfc5246>`_
 
-.. raw::
+.. note::
 
     key_block = PRF(SecurityParameters.master_secret,
                           "key expansion",

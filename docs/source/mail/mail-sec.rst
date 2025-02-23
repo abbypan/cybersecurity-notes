@@ -13,7 +13,7 @@ xxx@foo.com -> yyy@bar.com
 
 `SPF_Record_Syntax <http://www.openspf.org/SPF_Record_Syntax>`_
 
-.. raw::
+.. note::
    
     $ dig google.com txt +short
     "v=spf1 include:_spf.google.com ~all"
@@ -35,7 +35,7 @@ xxx@foo.com的mta发出邮件之前，对邮件进行hash摘要，然后私钥�
 
 当bar.com的mx收到一封声称来自xxx@foo.com的邮件时，可获取邮件中指定的dkim域名的公钥信息，进行签名校验，确认邮件内容未经篡改。
 
-.. raw::
+.. note::
 
     #邮件头部信息，$s=xxx, $d=xxx，$s._domainkey.$d 是登记dkim公钥信息的域名
     DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
@@ -62,7 +62,7 @@ xxx@foo.com -> yyy@bar.com
 
 当SPF或DKIM不通过时，bar.com的mx如何处理来自foo.com的邮件，例如，可以reject，把相关拒绝记录聚合通报到rua邮箱
 
-.. raw::
+.. note::
 
     $ dig _dmarc.google.com txt +short
     "v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com"

@@ -15,7 +15,7 @@ broker可以根据消息主题、内容、类型进行相关过滤、选取
 
 通配符 + 单层，# 多层, $开头：
 
-.. raw::
+.. note::
 
     myhome/groundfloor/+/temperature
     myhome/groundfloor/#/temperature

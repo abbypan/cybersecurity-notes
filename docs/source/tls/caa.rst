@@ -12,7 +12,7 @@ CAA RR: 域名拥有者指定某些CA信息，这些CA授权发布该域名的�
 
 CAA RR: flag ，property tag-value
 
-.. raw::
+.. note::
 
     $ORIGIN example.com
        .       CAA 0 issue "ca.example.net"
@@ -40,7 +40,7 @@ property tags
 
 A(X) 是 X 的 CNAME/DNAME 目标值，P(X) 是 X 的上级域。
 
-.. raw::
+.. note::
 
     R(X) = CAA（X） ||  R(A(X))  || ( X不是TLD ; R(P(X)) ) || Empty
 

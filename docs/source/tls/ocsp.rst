@@ -38,7 +38,7 @@ ocsp request
 
 ocsp请求的数据结构，其中ResponderID是指client信任的CSP responders列表，如果列表为空则表示server已预先知道这些responders无需重复指定。
 
-.. raw::
+.. note::
 
          struct {
               CertificateStatusType status_type;
@@ -59,7 +59,7 @@ ocsp请求的数据结构，其中ResponderID是指client信任的CSP responders
 
 ocsp应答的数据结构
 
-.. raw::
+.. note::
 
      struct {
           CertificateStatusType status_type;
@@ -93,7 +93,7 @@ client如何查询OCSP证书是否还有效：
 
 4.1.1 节是OCSP Request格式说明，4.2.1 节是OCSP Response格式说明
 
-.. raw::
+.. note::
 
     ResponseData ::= SEQUENCE {
       version              [0] EXPLICIT Version DEFAULT v1,
@@ -112,7 +112,7 @@ client如何查询OCSP证书是否还有效：
 
 注意看2.4节的4个时间设置，The thisUpdate and nextUpdate fields define a recommended validity interval.
 
-.. raw::
+.. note::
 
      thisUpdate: responder知道该status的时间
      nextUpdate: 该status在哪个时间之前有效

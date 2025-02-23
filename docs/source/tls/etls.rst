@@ -20,7 +20,7 @@ overview
 
 只有firewall与外界会进行标准的tls1.3 ephemeral DH交换。
 
-.. raw::
+.. note::
    
     client  <--- tls1.3 ---> firewall <--- etls ---> enterprise server (static key pair)
 
@@ -32,7 +32,7 @@ visibility information
 ==========================================================
 
 
-.. raw::
+.. note::
    
     VisibilityInformation ::= SEQUENCE {
         fingerprint         OCTET STRING (SIZE(10)),
@@ -42,7 +42,7 @@ visibility information
 
 上述static DH public key的SHA-256摘要，拆成(H0, ..., H7)的8个32-bit数，在serverhello里的key_share extension传输，参考FIPS 180-4。
 
-.. raw::
+.. note::
    
     fingerprint = H0 || H1 || (H2 >> 16)  ,  共80-bit
 

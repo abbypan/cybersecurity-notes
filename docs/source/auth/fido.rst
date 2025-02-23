@@ -44,7 +44,7 @@ FIDO AppID and Facet Speciﬁcation v1.0
 
 FacetID 是触发 FIDO 过程的唯一标识，其实就是认证的实体。web/android/ios场景示例：
 
-.. raw::
+.. note::
 
     https://login.mycorp.com/
     android:apk-key-hash:<sha1_hash-of-apk-signing-cert>
