@@ -13,6 +13,7 @@
    :caption: Certificate(证书)
 
    cert/acme
+   cert/crlite
 
 
 .. toctree::
