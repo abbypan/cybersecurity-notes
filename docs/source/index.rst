@@ -25,6 +25,8 @@
    auth/saml.rst
    auth/ca-sso.rst
    auth/oauth2.rst
+   auth/pkce.rst
+   auth/dpop.rst
    auth/openid.rst
    auth/fido.rst
    auth/kerberos.rst

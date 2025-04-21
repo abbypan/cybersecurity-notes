@@ -71,9 +71,3 @@ fido方案偏设备硬件。
 
 bitid是基于特殊overlay，还要post公钥到callback的uri，有时也是挺累。
 
-其他
-==========================================================
-
-oauth2 based: openid connect 统一登录, uma 用户<->用户授权
-
-proof of possession (PoP) token
