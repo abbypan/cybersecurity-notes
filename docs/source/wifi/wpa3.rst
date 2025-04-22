@@ -94,13 +94,13 @@ Fingerprint结合Sec值，分段拼接，再转换为Base32的PasswordBase
 
 .. math::
 
-    PasswordBase = Base32(P(0) || P(1) || ... || P(λ/4-1))
+    PasswordBase~=~Base32(P(0)~||~P(1)~||~...~||~P(λ/4-1))
 
-    When i< (λ/4-1), P(i) = Sec_1b || L(Fingerprint, 8*Sec+(19*i), 19)
+    When~i<~(λ/4-1),~P(i)~=~Sec_1b~||~L(Fingerprint,~8*Sec+(19*i),~19)
 
-    When i=(λ/4-1), P(i) = Sec_1b || L(Fingerprint, 8*Sec+(19*i), 14)
+    When~i=(λ/4-1),~P(i)~=~Sec_1b~||~L(Fingerprint,~8*Sec+(19*i),~14)
 
-    Sec_1b is a 1-bit integer equal to 1 when Sec=3, and equal to 0 when Sec=5
+    Sec_{1b}~is~a~1-bit~integer~equal~to~1~when~Sec=3,~and~equal~to~0~when~Sec=5
 
 基于PasswordBase计算Verhoeff algorithm的checksum(5 bits)，再按4 character 添加 - 分隔，获得password
 
