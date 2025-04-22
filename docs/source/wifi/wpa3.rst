@@ -57,7 +57,7 @@ sae-pk解决的问题场景是：如果黑客已知password，应如何抵御evi
 SAE Confirm message里包含的SAE-PK内容：
 - AP的公钥K_AP, p-256
 - 以KEK加密的Modifier(缩写为M)值, 128 bits
-- signature，以AP的私钥签名, ecdsa: :math:`KeyAuth = Sig_AP(eleAP || eleSTA || scaAP || scaSTA || M || K_AP || AP-BSSID || STA-MAC)`
+- signature，以AP的私钥签名, ecdsa: :math:`KeyAuth = Sig_{AP}(eleAP || eleSTA || scaAP || scaSTA || M || K_{AP} || AP-BSSID || STA-MAC)`
 
 signture校验通过，则表示上述PMKSA内容未经篡改。
 

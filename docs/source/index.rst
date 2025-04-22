@@ -100,6 +100,7 @@
    wifi/wpa2
    wifi/wpa2-krack
    wifi/wpa3
+   wifi/easy-conn
 
    
 .. toctree::
