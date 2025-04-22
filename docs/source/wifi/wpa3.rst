@@ -83,8 +83,11 @@ sae-pk credential: { ap key pair, Modifier (缩写为M), sae-pk password, sae-pk
     Fingerprint = L(Hash(SSID || M || K_AP), 0, 8*Sec + 19*λ/4 - 5) 
 
     L(S, F, N): 取S的最左边 [ F, F+N-1 ] bits
+
     Sec：取3或5
+
     λ = 4*n, n>=3
+
     8*Sec + 19*λ/4 - 5 <= HashLen
 
 Fingerprint结合Sec值，分段拼接，再转换为Base32的PasswordBase
@@ -94,7 +97,9 @@ Fingerprint结合Sec值，分段拼接，再转换为Base32的PasswordBase
     PasswordBase = Base32(P(0) || P(1) || ... || P(λ/4-1))
 
     When i< (λ/4-1), P(i) = Sec_1b || L(Fingerprint, 8*Sec+(19*i), 19)
+
     When i=(λ/4-1), P(i) = Sec_1b || L(Fingerprint, 8*Sec+(19*i), 14)
+
     Sec_1b is a 1-bit integer equal to 1 when Sec=3, and equal to 0 when Sec=5
 
 基于PasswordBase计算Verhoeff algorithm的checksum(5 bits)，再按4 character 添加 - 分隔，获得password
