@@ -9,7 +9,7 @@ Wi-Fi Easy Connect
 
 configurator (例如mobile)  配网  Enrollee (AP/STA)
 
-DPP (Device Provisioning Protocol) 
+keys
 -------------------------------------
 
 Initiator, Responder
@@ -20,9 +20,13 @@ Bootstrap Provisioning 主要是PKEX，push button Provisioning 简单一些
 
 network access keypair，用于网络访问，STA and AP 派生 PMK and PMKID
 
-configurator signature keypair，用于相关配置
+configurator signature keypair: c-sign-key，configurator配置用。用于签名。
+
+configurator Privacy-protection-keypair：configurator 用于隐私保护。
 
 protocol keypair
+
+connector数据结构：由c-sign-key对group id、dpp role、network access pubkey签名的JWS。
 
 discovery 
 -------------
@@ -36,6 +40,48 @@ Bootstrapping Services SRV RR 提供Restful URI，由configurator post提交各e
 该restful URI 双向TLS + out-of-band usr/pwd 认证。
 
 查询enrollee的bs pub key list应有访问控制。
+
+
+Bootstrapping
+------------------
+
+out-of-band 交换 bootstrapping pubkey
+
+`PKEX <https://datatracker.ietf.org/doc/draft-harkins-pkex/>`_ 协议:
+分2阶段，一阶段Authentication使用code结合临时公私钥对建立SPAKE2认证，二阶段Reveal基于已认证的信道安全交换pubkey。
+
+PKEX 协议，基于code，安全交换bootstrapping pubkey
+
+
+DPP
+-----------
+
+复用PKEX，一阶段基于固定的code，结合已交换的bootstrapping pubkey，建立认证信道；二阶段使用临时公私钥对派生session key。
+
+AES-SIV。
+
+DPP Reconfiguration Authentication
+----------------------------------------
+
+随机生成ecc point：E-id
+
+随机生成 a-nonce：A-NONCE = a-nonce * G
+
+E'-id = E-id + a-nonce * Ppk
+
+Configurator可以从E'-id - ppk * A-NONCE 恢复 E-id
+
+Network Introduction
+------------------------
+
+HPKE
+
+key establishment
+-----------------------
+
+基于双方network accesskey keypair，ECDH派生N；基于N派生PMK, PMKID。
+
+实质session连接，还需临时密钥对，ECDH派生Z；基于PMK，与Z结合派生PTK。
 
 
 
