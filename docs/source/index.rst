@@ -58,6 +58,8 @@
    tls/ocsp
    tls/ocsp-stapling
    tls/tls-attack
+   tls/tls-attestation.rst
+
 
 
 .. toctree::
@@ -156,6 +158,7 @@
 
    mobile/esim
    mobile/cellular-alg
+   mobile/5g-security
 
 
 .. toctree::

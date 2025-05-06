@@ -40,3 +40,4 @@ MQTT-SN
 - `MQTT: Get started with IoT protocols <https://opensourceforu.com/2016/11/mqtt-get-started-iot-protocols/>`_
 - `MQTT For Sensor Networks (MQTT-SN) <http://mqtt.org/new/wp-content/uploads/2009/06/MQTT-SN_spec_v1.2.pdf>`_
 - `MQTT-SN Protocol <https://emqttd-docs.readthedocs.io/en/latest/mqtt-sn.html>`_
+- `MQTT托管 <https://help.aliyun.com/zh/iot/user-guide/overview-1>`_

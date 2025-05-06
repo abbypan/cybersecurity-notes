@@ -6,7 +6,7 @@ SeND
 router verify node
 ======================================
 
-CGA: cryptographically generated addresses
+`CGA: cryptographically generated addresses <https://en.wikipedia.org/wiki/Cryptographically_Generated_Address>`_
 
 节点生成公私钥对。基于公钥、随机数等信息hash出IP地址。
 

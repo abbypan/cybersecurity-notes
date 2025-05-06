@@ -1,10 +1,14 @@
 wifi
 ######################################
 
+`Wifi security <https://www.wi-fi.org/discover-wi-fi/security>`_
+
+
 overview
 ============
 
 `Wild Wireless <http://ilta.personifycloud.com/webfiles/productfiles/914126/ETPG2.pdf>`_
+
 
 sta: client
 
@@ -19,10 +23,12 @@ ess : Extended service set
 802.11u
 ==========================================================
 
-[Understanding Hotspot Profiles](https://www.arubanetworks.com/techdocs/Instant_40_Mobile/Advanced/Content/UG_files/Hotspot_profiles/HotspotProfileOverview.htm)
+`Understanding Hotspot Profiles <https://www.arubanetworks.com/techdocs/Instant_40_Mobile/Advanced/Content/UG_files/Hotspot_profiles/HotspotProfileOverview.htm>`_
 
 gas: Generic Advertisement Service
 
 anqp: Access Network Query Protocol
 
 gas & anqp 用于network discovery and selection
+
+
