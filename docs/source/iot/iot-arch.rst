@@ -24,3 +24,7 @@ perception layer key distribution:
 - master key pre-distribution
 - pairwise key
 
+doc
+======
+
+- `Trusted IoT Device Network-Layer Onboarding and Lifecycle Management <https://www.nccoe.nist.gov/projects/trusted-iot-device-network-layer-onboarding-and-lifecycle-management>`_

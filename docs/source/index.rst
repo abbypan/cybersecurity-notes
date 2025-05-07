@@ -134,6 +134,7 @@
    :caption: Supply Chain
 
    supply-chain/scrm
+   supply-chain/firmware
 
 
 .. toctree::
@@ -227,6 +228,7 @@
    :caption: design
 
    design/opportunistic-security
+   design/zt
 
 
 .. toctree::

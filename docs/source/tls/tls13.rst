@@ -114,6 +114,7 @@ doc
 - `A Readable Specification of TLS 1.3  <https://davidwong.fr/tls13/>`_
 - `A Detailed Look at RFC 8446 (a.k.a. TLS 1.3) <https://blog.cloudflare.com/rfc-8446-aka-tls-1-3/>`_
 - `TLSeminar <https://tlseminar.github.io/>`_
+- `TLS Crypto Seminar <https://www.felixguenther.info/teaching/2019-tls-seminar/2019-tls-seminar_02-21_TLS13-intro-MSKE-MKC.pdf>`_
 - `SLOTH <https://www.mitls.org/pages/attacks/SLOTH>`_
 - `Proving the TLS Handshake Secure (as it is) <https://hal.inria.fr/hal-01102229/document>`_
 - `On the Security of TLS-DH and TLS-RSA in the Standard Model <https://eprint.iacr.org/2013/367.pdf>`_
@@ -122,6 +123,7 @@ doc
 - `KCI Attacks against TLS <https://kcitls.org/>`_
 - `The Illustrated TLS Connection <https://tls.ulfheim.net/>`_
 - `ssl/tls test <https://browserleaks.com/ssl>`_
+- `tls-tutorial <https://github.com/BenSmyth/tls-tutorial/>`_
 - cypto -> tls -> ipsec/ike -> ssh : `BSI TR-02102 Cryptographic Mechanisms <https://www.bsi.bund.de/EN/Service-Navi/Publications/TechnicalGuidelines/tr02102/tr02102_node.html>`_
 
 
