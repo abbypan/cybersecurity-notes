@@ -41,3 +41,4 @@ MQTT-SN
 - `MQTT For Sensor Networks (MQTT-SN) <http://mqtt.org/new/wp-content/uploads/2009/06/MQTT-SN_spec_v1.2.pdf>`_
 - `MQTT-SN Protocol <https://emqttd-docs.readthedocs.io/en/latest/mqtt-sn.html>`_
 - `MQTT托管 <https://help.aliyun.com/zh/iot/user-guide/overview-1>`_
+- `智能家居设备的配网方案与流程分析 <http://www.woshipm.com/it/3525238.html>`_

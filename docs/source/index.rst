@@ -8,31 +8,34 @@
 目录
 ----
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Certificate(证书)
-
-   cert/acme
-   cert/crlite
-
 
 .. toctree::
    :maxdepth: 1
    :caption: Authentication
 
-   auth/web-auth
    auth/ontology-auth
-   auth/saml.rst
-   auth/ca-sso.rst
-   auth/oauth2.rst
-   auth/pkce.rst
-   auth/dpop.rst
-   auth/openid.rst
-   auth/fido.rst
-   auth/kerberos.rst
-   auth/jwt.rst
-   auth/cookie-dbsc.rst
+   auth/fido
+   auth/web-auth
+   auth/passkey
+   auth/saml
+   auth/ca-sso
+   auth/oauth2
+   auth/pkce
+   auth/dpop
+   auth/openid
+   auth/kerberos
+   auth/jwt
+   auth/cookie-dbsc
 
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Certificate
+
+   cert/acme
+   cert/crlite
+   cert/ca
+   cert/cert-ext
 
 
 .. toctree::
@@ -58,7 +61,7 @@
    tls/ocsp
    tls/ocsp-stapling
    tls/tls-attack
-   tls/tls-attestation.rst
+   tls/tls-attestation
 
 
 
@@ -118,6 +121,7 @@
    iot/eap-noob
    iot/iot-dns
    iot/iot-attack
+   iot/iot-privacy
 
 
 

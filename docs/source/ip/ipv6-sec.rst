@@ -20,4 +20,9 @@ RFC3972 CGA方案：
     子网前缀 + 接口标识符 => 网络地址
 
 
+doc
+======
 
+`Eric Vyncke - IPv6 Security Vendor Point of View <https://www.slideshare.net/slideshow/eric-vyncke-ipv6-security-vendor-point-of-view/6342224>`_
+
+`NIST IPv6 Profile <https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.SP.500-267Ar1.pdf>`_

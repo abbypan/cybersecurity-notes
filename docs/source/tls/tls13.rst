@@ -124,6 +124,10 @@ doc
 - `The Illustrated TLS Connection <https://tls.ulfheim.net/>`_
 - `ssl/tls test <https://browserleaks.com/ssl>`_
 - `tls-tutorial <https://github.com/BenSmyth/tls-tutorial/>`_
+- `tls13 <https://tls13.xargs.org/>`_
+- `A Cryptographic Analysis of the TLS 1.3 Handshake Protocol <https://eprint.iacr.org/2020/1044.pdf>`_
+- `Addressing Visibility Challenges with TLS 1.3 <https://csrc.nist.gov/pubs/pd/2021/05/26/addressing-visibility-challenges-with-tls-13/final>`_
+- `RFC 7250  Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) <https://datatracker.ietf.org/doc/html/rfc7250>`_
 - cypto -> tls -> ipsec/ike -> ssh : `BSI TR-02102 Cryptographic Mechanisms <https://www.bsi.bund.de/EN/Service-Navi/Publications/TechnicalGuidelines/tr02102/tr02102_node.html>`_
 
 

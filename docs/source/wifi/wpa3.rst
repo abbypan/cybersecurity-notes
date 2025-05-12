@@ -7,6 +7,12 @@ wpa3
 
 `wifi security <https://www.wi-fi.org/zh-hans/discover-wi-fi/security>`_
 
+`Wi-Fi CERTIFIED WPA3™ December 2020 update brings new protections against active attacks: SAE Public Key and Transition Disable <https://www.wi-fi.org/beacon/thomas-derham-nehru-bhandaru/wi-fi-certified-wpa3-december-2020-update-brings-new-0>`_
+
+`Protected Management Frames enhance Wi-Fi® network security <https://www.wi-fi.org/beacon/philipp-ebbecke/protected-management-frames-enhance-wi-fi-network-security>`_
+
+
+
 wpa3-personal
 ======================================
 

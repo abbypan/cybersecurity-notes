@@ -218,7 +218,7 @@ PKI, two-factor
 doc
 ==========================================================
 
-- `NIST SP 800-121 Guide to BluetoothSecurity <https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-121r2.pdf>`_
+- `NIST SP 800-121 Guide to BluetoothSecurity <https://plaxidityx.com/blog/standards-and-compliance/nist-sp-800-121-guide-to-bluetooth-security/>`_
 - `Dialog SDK 5.0.x/6.0.x Tutorial Pairing, Bonding and Security <https://www.dialog-semiconductor.com/sites/default/files/training_05_ble_security_example_v1.2.pdf>`_
 - `Understanding Bluetooth Security By Mark Loveless <https://duo.com/decipher/understanding-bluetooth-security>`_
 - `Bluetooth security <https://www.slideshare.net/ShantanuKrishna1/bluetooth-security-25861180>`_
@@ -232,3 +232,5 @@ doc
 - `Protecting Privacy of BLE Device Users <https://www.semanticscholar.org/paper/Protecting-Privacy-of-BLE-Device-Users-Fawaz-Kim/558380e0cba2c5bcda7d4d94e23f215ede0e910f?p2df>`_
 - `Bluetooth Low Energy - privacy enhancement for advertisement <https://core.ac.uk/download/pdf/52107479.pdf>`_
 - `Automatic Fingerprinting Of Vulnerable BLE IoT DevicesWith Static UUIDs From Mobile Apps <https://web.cse.ohio-state.edu/~lin.3021/file/CCS19a-slides.pdf#beamerbibfawaz2016protecting>`_
+- `Bluetooth Security <http://classweb.ece.umd.edu/ents650/BluetoothSecurity.pdf>`_
+- `Introduction to Bluetooth Low Energy <https://learn.adafruit.com/introduction-to-bluetooth-low-energy/gatt>`_

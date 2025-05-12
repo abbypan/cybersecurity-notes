@@ -1,8 +1,8 @@
 iot security
 ###############
 
-rfc8576 
-==========================================================
+rfc8576 Internet of Things (IoT) Security: State of the Art and Challenges
+================================================================================
 
 iot security
 
@@ -42,6 +42,8 @@ gfce
 etsi
 ==========================================================
 
+`ETSI EN 303 645  <https://www.etsi.org/newsroom/press-releases/1789-2020-06-etsi-releases-world-leading-consumer-iot-security-standard>`_
+
 `ETSI IoT Security WORKSHOP <https://docbox.etsi.org/Workshop/2016/201606_SECURITYWS/S03_RISKSFROMTRANSPORTDOMAIN/RENAULT_LONC.pdf>`_
 
 nist
@@ -79,6 +81,15 @@ doc
 - `Hardware or Software Security: Which is right for my IoT Device? <https://www.iotcentral.io/blog/hardware-or-software-security-which-is-right-for-my-iot-device>`_
 - `Privacy, Discovery, and Authentication for the Internet of Things <https://arxiv.org/abs/1604.06959>`_
 - `A Privacy-Enhancing Framework for Internet of Things Services <https://eprint.iacr.org/2019/1471.pdf>`_
+- `enisa Baseline Security Recommendations for IoT <https://www.enisa.europa.eu/publications/baseline-security-recommendations-for-iot>`_
+- `GSMA IoT SECURITY GUIDELINES for Endpoint Ecosystems <https://www.gsma.com/solutions-and-impact/technologies/internet-of-things/wp-content/uploads/2020/03/CLP.13-v2.2-GSMA-IoT-Security-Guidelines-for-Endpoint-Ecosystems.pdf>`_
+- `GSMA IoT SECURITY GUIDELINES for Network Operators <https://www.gsma.com/solutions-and-impact/technologies/internet-of-things/wp-content/uploads/2020/05/CLP.14-v2.2-GSMA-IoT-Security-Guidelines-for-Network-Operators.pdf>`_
+- `GSMA IoT SECURITY GUIDELINES Overview Document <https://www.gsma.com/solutions-and-impact/technologies/internet-of-things/wp-content/uploads/2020/05/CLP.11-v2.2-GSMA-IoT-Security-Guidelines-Overview-Document.pdf>`_
+- `Internet of Things (IoT) Security GFCE Global Good Practices <https://cybilportal.org/wp-content/uploads/2019/10/GFCE-GGP-IoT.pdf>`_
+- `IoT Security Foundation Publications <https://iotsecurityfoundation.org/best-practice-guidelines/>`_
+- `Rounding Up Your IoT Security Requirements: Draft NIST Guidance for Federal Agencies <https://www.nist.gov/blogs/cybersecurity-insights/rounding-your-iot-security-requirements-draft-nist-guidance-federal>`_
+- `Credential Management for Internet of Things Devices <https://www.openmobilealliance.org/documents/ipso/ipso-iot-credential-management_final.pdf>`_
+
 
 
 
