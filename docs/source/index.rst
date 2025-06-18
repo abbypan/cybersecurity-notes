@@ -15,7 +15,7 @@
 
    auth/ontology-auth
    auth/fido
-   auth/web-auth
+   auth/webauthn
    auth/passkey
    auth/saml
    auth/ca-sso
