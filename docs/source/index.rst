@@ -96,6 +96,8 @@
 
    bluetooth/bluetooth-sec
    bluetooth/bluetooth-attack
+   bluetooth/magic-pairing
+   bluetooth/fast-pair
 
 
 .. toctree::
