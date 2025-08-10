@@ -37,6 +37,7 @@
    cert/cert-valid
    cert/cert-ext
    cert/cert-req
+   cert/cert-format
 
 
 .. toctree::
@@ -144,6 +145,10 @@
 
    supply-chain/scrm
    supply-chain/firmware
+   supply-chain/sigstore
+   supply-chain/slsa
+   supply-chain/in-toto
+
 
 
 .. toctree::
