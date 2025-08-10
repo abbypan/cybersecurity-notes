@@ -2,6 +2,7 @@ JWT
 ==========================================================
 
 RFC7515 ~ RFC7519
+--------------------
 
 `5 Easy Steps to Understanding JSON Web Tokens (JWT) <https://medium.com/vandium-software/5-easy-steps-to-understanding-json-web-tokens-jwt-1164c0adfcec>`_
 
@@ -24,4 +25,15 @@ signature也可以使用rsa/ecdsa等签名算法生成。
 如果payload中有部分敏感内容被加密，则server需要有对应的解密配置。
 
 优点在于server端非常容易对token做轮转，json内容简单，且避开了cookie的cors等问题。缺点在于提高了对secret的安全性依赖。
+
+
+RFC9493
+---------
+
+identifier format
+
+    {
+      "format": "account",
+      "uri": "acct:example.user@service.example.com"
+    }
 
