@@ -273,3 +273,10 @@
 
    tool/tshark
 
+
+.. toctree::
+   :maxdepth: 1
+   :caption: geolocation
+
+   geo/ip-geolocation
+
