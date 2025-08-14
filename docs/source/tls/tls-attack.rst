@@ -3,6 +3,12 @@ tls attack
 
 `Lucky 13, BEAST, CRIME,... Is TLS dead, or just resting? <https://www.ietf.org/proceedings/89/slides/slides-89-irtfopen-1.pdf>`_
 
+sloth
+==========
+
+`SLOTH Security Losses from Obsolete and Truncated Transcript Hashes (CVE-2015-7575) <https://www.mitls.org/pages/attacks/SLOTH>`_
+
+
 rsa problem
 ==========================================================
 

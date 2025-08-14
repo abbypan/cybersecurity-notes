@@ -66,6 +66,7 @@
    tls/tls-attestation
    tls/tls-sm
    tls/tls-interoperate
+   tls/tls-pwd
 
 
 
@@ -128,6 +129,7 @@
    iot/iot-dns
    iot/iot-attack
    iot/iot-privacy
+   iot/edhoc-psk
 
 
 
@@ -279,4 +281,11 @@
    :caption: geolocation
 
    geo/ip-geolocation
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: TARA
+
+   tara/tara
 
