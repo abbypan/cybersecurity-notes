@@ -234,3 +234,4 @@ doc
 - `Automatic Fingerprinting Of Vulnerable BLE IoT DevicesWith Static UUIDs From Mobile Apps <https://web.cse.ohio-state.edu/~lin.3021/file/CCS19a-slides.pdf#beamerbibfawaz2016protecting>`_
 - `Bluetooth Security <http://classweb.ece.umd.edu/ents650/BluetoothSecurity.pdf>`_
 - `Introduction to Bluetooth Low Energy <https://learn.adafruit.com/introduction-to-bluetooth-low-energy/gatt>`_
+- `Finding Traceability Attacks in the Bluetooth Low Energy Specification and Its Implementations <https://www.usenix.org/system/files/usenixsecurity24-wu-jianliang.pdf>`_

@@ -250,6 +250,12 @@
    doi/uuid
 
 
+.. toctree::
+   :maxdepth: 1
+   :caption: AI Agent
+
+   ai/anp
+
 
 
 .. toctree::
