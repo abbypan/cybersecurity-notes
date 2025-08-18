@@ -32,10 +32,12 @@
    :maxdepth: 1
    :caption: Certificate
 
-   cert/acme
-   cert/crlite
    cert/ca
+   cert/cert-manage
+   cert/cert-valid
    cert/cert-ext
+   cert/cert-req
+   cert/cert-format
 
 
 .. toctree::
@@ -62,6 +64,9 @@
    tls/ocsp-stapling
    tls/tls-attack
    tls/tls-attestation
+   tls/tls-sm
+   tls/tls-interoperate
+   tls/tls-pwd
 
 
 
@@ -124,6 +129,7 @@
    iot/iot-dns
    iot/iot-attack
    iot/iot-privacy
+   iot/edhoc-psk
 
 
 
@@ -141,6 +147,10 @@
 
    supply-chain/scrm
    supply-chain/firmware
+   supply-chain/sigstore
+   supply-chain/slsa
+   supply-chain/in-toto
+
 
 
 .. toctree::
@@ -263,3 +273,25 @@
    :caption: tv
 
    tv/guangdian
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: tool
+
+   tool/tshark
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: geolocation
+
+   geo/ip-geolocation
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: TARA
+
+   tara/tara
+
