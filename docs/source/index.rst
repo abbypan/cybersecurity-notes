@@ -265,6 +265,7 @@
    :caption: AI Agent
 
    ai/anp
+   ai/a2a
 
 
 
