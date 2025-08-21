@@ -1,5 +1,7 @@
-ANP (Agent Network Protocol)
+ANP 
 ###################################
+
+Agent Network Protocol
 
 https://github.com/agent-network-protocol/AgentNetworkProtocol/
 
@@ -19,7 +21,6 @@ authentication
 =================
 
 基于did:wba的public key校验签名，通过后，进行token授权。
-
 
 e2e
 =====

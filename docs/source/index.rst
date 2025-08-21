@@ -264,9 +264,9 @@
    :maxdepth: 1
    :caption: AI Agent
 
-   ai/anp
    ai/a2a
-
+   ai/anp
+   ai/acp
 
 
 .. toctree::
