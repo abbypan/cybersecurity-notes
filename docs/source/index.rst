@@ -11,21 +11,28 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: Authentication
+   :caption: Authentication & Authorization
 
    auth/ontology-auth
+
    auth/fido
    auth/webauthn
    auth/passkey
-   auth/saml
-   auth/ca-sso
-   auth/oauth2
-   auth/pkce
-   auth/dpop
-   auth/openid
-   auth/kerberos
+
    auth/jwt
    auth/cookie-dbsc
+
+   auth/oauth2
+   auth/oauth2.1
+   auth/oauth2-dyn-client-reg
+   auth/oauth2-pkce
+   auth/oauth2-dpop
+   auth/openid
+
+   auth/saml
+   auth/ca-sso
+   auth/kerberos
+
 
 
 .. toctree::

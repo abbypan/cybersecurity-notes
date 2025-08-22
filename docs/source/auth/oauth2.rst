@@ -3,8 +3,7 @@ OAuth2
 
 FIDO, OAuth2, CA SSO 对web服务实际效用会更好一些
 
-`RFC6749: [The OAuth 2.0 Authorization Framework <https://tools.ietf.org/html/rfc6749>`_
-
+`RFC6749: The OAuth 2.0 Authorization Framework <https://tools.ietf.org/html/rfc6749>`_
 
 基础
 ==========================================================
