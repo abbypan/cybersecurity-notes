@@ -27,6 +27,9 @@
    auth/oauth2-dyn-client-reg
    auth/oauth2-pkce
    auth/oauth2-dpop
+   auth/oauth2-mtls
+   auth/oauth2-device-authorization-grant
+   auth/oauth2-challenge
    auth/openid
 
    auth/saml
