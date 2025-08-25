@@ -306,3 +306,10 @@
 
    tara/tara
 
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Firewall
+
+   firewall/spa
+
