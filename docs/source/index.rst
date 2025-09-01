@@ -274,6 +274,7 @@
    :maxdepth: 1
    :caption: AI Agent
 
+   ai/mcp
    ai/a2a
    ai/anp
    ai/acp
