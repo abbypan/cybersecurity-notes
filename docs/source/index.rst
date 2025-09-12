@@ -48,6 +48,7 @@
    cert/cert-ext
    cert/cert-req
    cert/cert-format
+   cert/cert-transparency
 
 
 .. toctree::
