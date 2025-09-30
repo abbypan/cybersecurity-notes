@@ -235,3 +235,4 @@ doc
 - `Bluetooth Security <http://classweb.ece.umd.edu/ents650/BluetoothSecurity.pdf>`_
 - `Introduction to Bluetooth Low Energy <https://learn.adafruit.com/introduction-to-bluetooth-low-energy/gatt>`_
 - `Finding Traceability Attacks in the Bluetooth Low Energy Specification and Its Implementations <https://www.usenix.org/system/files/usenixsecurity24-wu-jianliang.pdf>`_
+- `The Long Journey of Exploiting and Defending the Legacy of King Haral <https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10646695>`_
